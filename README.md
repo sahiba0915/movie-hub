@@ -1,3 +1,5 @@
+<img width="788" alt="image" src="https://github.com/user-attachments/assets/984b1766-d4ac-4842-8817-0f02bf6af6ca" />
+
 # Movie Hub
 
 Movie Hub is a modern web application that allows users to browse and discover movies with an intuitive and visually appealing interface. Built with React and styled with Tailwind CSS, it leverages external APIs to fetch real-time movie data.
