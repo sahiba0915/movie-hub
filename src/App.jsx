@@ -51,8 +51,8 @@ const App = () => {
       }
       setMovieList(data.results || [])
 
-      if(query && data.results.length > 0){
-        await  updateSearchCount(query, data.results[0])
+      if(query && data?.results?.length > 0){
+        await  updateSearchCount(query, data?.results[0])
       }
 
     }catch(error){
@@ -91,7 +91,7 @@ const App = () => {
         <Search searchTerm={searchTerm} setSearchTerm={setSearchTerm}/>
         </header>
 
-        {trendingMovies.length > 0 && (
+        {trendingMovies?.length > 0 && (
           <section className="trending">
             <h2>Trending Movies</h2>
 
